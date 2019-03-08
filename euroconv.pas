@@ -24,16 +24,14 @@ type
     procedure BtnConvClick(Sender: TObject);
     procedure BtnQuitClick(Sender: TObject);
     procedure BtnRAZClick(Sender: TObject);
-    procedure EdDollarChange(Sender: TObject);
     procedure EdDollarClick(Sender: TObject);
-    procedure EdEuroChange(Sender: TObject);
     procedure EdEuroClick(Sender: TObject);
   private
 
   public
 
   end;
-const taux = 1.15;
+const taux = 1.1229;
 var
   FConv: TFConv;
 
@@ -65,18 +63,11 @@ end;
 
 procedure TFConv.BtnRAZClick(Sender: TObject);
 begin
-  EdDollar.Text := '0';
-  EdEuro.Text := '0';
-end;
-
-procedure TFConv.EdDollarChange(Sender: TObject);
-begin
-
-end;
-
-procedure TFConv.EdEuroChange(Sender: TObject);
-begin
-
+  EdDollar.Text := '0,0';
+  EdEuro.Text := '0,0';
+  EdEuro.SetFocus;
+  EdEuro.Hint:='0,0';
+  EdEuro.ShowHint:=true;
 end;
 
 procedure TFConv.EdDollarClick(Sender: TObject);

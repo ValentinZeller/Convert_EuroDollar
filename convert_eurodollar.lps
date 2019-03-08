@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="22"/>
       </Unit0>
       <Unit1>
         <Filename Value="euroconv.pas"/>
@@ -21,17 +21,37 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="62"/>
-        <CursorPos X="27" Y="84"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="26"/>
+        <CursorPos X="25" Y="48"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="6" HistoryIndex="5">
       <Position1>
         <Filename Value="euroconv.pas"/>
       </Position1>
+      <Position2>
+        <Filename Value="euroconv.pas"/>
+        <Caret Line="69" Column="26" TopLine="47"/>
+      </Position2>
+      <Position3>
+        <Filename Value="euroconv.pas"/>
+        <Caret Line="66" Column="25" TopLine="48"/>
+      </Position3>
+      <Position4>
+        <Filename Value="euroconv.pas"/>
+        <Caret Line="68" Column="26" TopLine="49"/>
+      </Position4>
+      <Position5>
+        <Filename Value="euroconv.pas"/>
+        <Caret Line="54" Column="26" TopLine="37"/>
+      </Position5>
+      <Position6>
+        <Filename Value="euroconv.pas"/>
+        <Caret Line="47" Column="31" TopLine="26"/>
+      </Position6>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

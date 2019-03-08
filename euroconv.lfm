@@ -1,10 +1,10 @@
 object FConv: TFConv
   Left = 450
-  Height = 333
-  Top = 138
+  Height = 327
+  Top = 144
   Width = 401
   Caption = 'Convertisseur'
-  ClientHeight = 333
+  ClientHeight = 327
   ClientWidth = 401
   DesignTimePPI = 120
   LCLVersion = '1.8.4.0'
@@ -21,7 +21,10 @@ object FConv: TFConv
     Height = 28
     Top = 40
     Width = 100
+    NumbersOnly = True
     OnClick = EdEuroClick
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 0
     Text = '0'
   end
@@ -38,6 +41,7 @@ object FConv: TFConv
     Height = 28
     Top = 96
     Width = 100
+    NumbersOnly = True
     OnClick = EdDollarClick
     TabOrder = 1
     Text = '0'
