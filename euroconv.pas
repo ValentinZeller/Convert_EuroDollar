@@ -65,9 +65,7 @@ procedure TFConv.BtnRAZClick(Sender: TObject);
 begin
   EdDollar.Text := '0,0';
   EdEuro.Text := '0,0';
-  EdEuro.SetFocus;
-  EdEuro.Hint:='0,0';
-  EdEuro.ShowHint:=true;
+  EdEuro.SelectAll;
 end;
 
 procedure TFConv.EdDollarClick(Sender: TObject);
